@@ -295,8 +295,8 @@ section.voltar-topo img {
     display: none;
   }
   section.conteudo h3 {
-    margin: 20% 0 2%;
-    font-size: 4.5vw;
+    margin: 20% 0 3%;
+    font-size: 5vw;
     color: #1c3c50;
   }
 
@@ -321,7 +321,8 @@ section.voltar-topo img {
     height: auto;
   }
   aside.divoltis-porris h4 {
-    font-size: 4.5vw;
+    font-size: 3.5vw;
+    margin: 4% 0 2%;
   }
   aside.divoltis-porris p {
     font-size: 4.5vw;
@@ -333,7 +334,7 @@ section.voltar-topo img {
 
   section.conteudo .news-text h3 {
     margin: 12% 0 4%;
-    font-size: 4.5vw;
+    font-size: 5vw;
     color: #0099de;
     display: block;
   }
@@ -349,7 +350,7 @@ section.voltar-topo img {
   }
   section.conteudo article.news h3 {
     margin: -5% 0 4%;
-    font-size: 4.5vw;
+    font-size: 5vw;
     color: #f5523e;
     display: block;
   }
@@ -358,7 +359,7 @@ section.voltar-topo img {
   }
   article.news .description h4 {
     margin: 5% 0 4%;
-    font-size: 4vw;
+    font-size: 3.5vw;
     color: #f5523e;
   }
   article.news .description p {
@@ -382,6 +383,9 @@ section.voltar-topo img {
     position: absolute;
     font-size: 2.3vw;
     color: grey;
+  }
+  article.publicidade img {
+    width: 100%;
   }
   footer {
     background: #1c3c50;
