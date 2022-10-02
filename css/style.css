@@ -315,6 +315,7 @@ section.voltar-topo img {
   }
   aside.divoltis-porris {
     grid-template-columns: 1fr;
+    grid-gap: 0;
   }
   aside.divoltis-porris img {
     width: 94vw;
