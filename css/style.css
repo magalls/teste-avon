@@ -1,0 +1,525 @@
+@font-face {
+  font-family: "Helvetica";
+  src: url("./Fonts/helvetica.ttf");
+  display: swap;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body.HomeAvon {
+  background-color: #ebf0f1;
+}
+
+header.header-avon {
+  width: 100%;
+  background: #0099de;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+}
+header.header-avon div {
+  display: flex;
+}
+header.header-avon div.menu {
+  margin: 0 25%;
+}
+header.header-avon .menu img {
+  width: 100%;
+  max-width: 14vw;
+  height: auto;
+}
+header.header-avon div.midias-sociais {
+  justify-content: space-evenly;
+}
+
+header.header-avon nav {
+  width: 100%;
+  margin: 14% 0 0;
+}
+
+header.header-avon nav ul {
+  width: 100%;
+  display: flex;
+}
+header.header-avon nav ul li {
+  list-style: none;
+  width: 100%;
+  color: white;
+  font-family: "Helvetica";
+}
+
+div.midias-sociais img {
+  border-radius: 5px;
+}
+main {
+  width: 88%;
+  margin: 6% auto 10%;
+  font-family: "Helvetica";
+}
+/* slider Caroussel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+}
+#carousel-avon .carousel-control-prev,
+#carousel-avon .carousel-control-next {
+  top: 45%;
+  width: 3vw;
+  height: 3vw;
+  background-color: white;
+  opacity: 1;
+  border-radius: 2vw;
+}
+#carousel-avon .carousel-control-prev {
+  left: -1.5%;
+}
+#carousel-avon .carousel-control-next {
+  right: -1.5%;
+}
+#carousel-avon .carousel-indicators {
+  bottom: -3vw;
+}
+#carousel-avon .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 25px;
+  background-color: #80808085;
+}
+#carousel-avon .carousel-indicators .active {
+  background-color: #0099de;
+}
+#carousel-avon .carousel-caption {
+  left: 3%;
+  top: 65%;
+}
+#carousel-avon .carousel-caption h5 {
+  display: block;
+  width: 30%;
+  margin: 0 0 2%;
+  text-transform: uppercase;
+  background-color: #0099de;
+  text-align: left;
+  font-size: 1vw;
+  padding: 0.5vw 2vw;
+}
+#carousel-avon .carousel-caption p {
+  width: 100%;
+  margin: 0;
+  text-align: left;
+  font-size: 2.1vw;
+  padding: 0;
+  line-height: 2.5vw;
+  font-weight: bold;
+  color: white;
+}
+
+/* fim slider */
+
+/* conteudo */
+section.conteudo h3 {
+  margin: 5% 0 1%;
+  font-size: 2vw;
+  color: #1c3c50;
+}
+aside.top-cacilds {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3%;
+}
+aside.top-cacilds {
+  position: relative;
+}
+aside.top-cacilds img {
+  width: 100%;
+}
+aside.top-cacilds h4 {
+  position: absolute;
+  width: 8%;
+  top: 76%;
+  color: white;
+  text-transform: uppercase;
+  background-color: #f5523e;
+  font-size: 1vw;
+  padding: 0.5vw;
+  text-align: center;
+}
+aside.divoltis-porris {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3%;
+}
+aside.divoltis-porris .conteudo {
+  border-bottom: 2px solid #c2c3c44f;
+  margin: 0 0 5%;
+}
+aside.divoltis-porris img {
+  width: 27vw;
+  height: 29vh;
+}
+aside.divoltis-porris img.publicidade {
+  width: 76%;
+  margin: 0 12%;
+  height: auto;
+}
+aside.divoltis-porris h4 {
+  color: #0099de;
+  text-transform: uppercase;
+  font-size: 1vw;
+  padding: 0;
+  margin: 2% 0;
+}
+aside.divoltis-porris p {
+  color: #1c3c50;
+  padding: 0 0 8%;
+  margin: 0;
+  font-size: 1vw;
+}
+aside.news {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3%;
+}
+aside.news h3 {
+  margin: 5% 0 4%;
+  font-size: 2vw;
+  color: #0099de;
+}
+article.news-text p {
+  padding: 0 15% 5% 0;
+  font-size: 1vw;
+  color: #1c3c50;
+  border-bottom: 2px solid #c2c3c44f;
+}
+.news-conteudo {
+  display: flex;
+  margin: 7% 0;
+}
+article.news h3 {
+  margin: 5% 0 4%;
+  font-size: 2vw;
+  color: #f5523e;
+}
+article.news .description {
+  padding: 5%;
+}
+article.news .description h4 {
+  margin: 5% 0 4%;
+  font-size: 1vw;
+  color: #f5523e;
+}
+article.news .description p {
+  color: #1c3c50;
+  font-size: 1vw;
+}
+footer {
+  background: #1c3c50;
+  padding: 0 0 5%;
+}
+section.voltar-topo {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 1% 5% 1% 0;
+  background: #0099de;
+  text-transform: uppercase;
+  font-size: 1vw;
+  color: white;
+}
+footer a:hover {
+  text-decoration: none;
+}
+section.voltar-topo img {
+  width: 1.5%;
+  margin: 0 0.5% 0;
+  filter: invert(1);
+}
+@media (max-width: 600px) {
+  .large-devices {
+    display: none;
+  }
+
+  .small-devices {
+    display: none;
+  }
+  .extra-small-devices {
+    display: block;
+  }
+  header.header-avon {
+    grid-template-columns: 1fr 2fr;
+  }
+  header .logo img {
+    width: 100%;
+    height: auto;
+    max-width: 45vw;
+  }
+  header.header-avon nav {
+    display: none;
+  }
+  header.header-avon div.midias-sociais {
+    display: none;
+  }
+  #carousel-avon .carousel-control-prev,
+  #carousel-avon .carousel-control-next {
+    display: none;
+  }
+  #carousel-avon .carousel-indicators {
+    bottom: 6vw;
+  }
+  #carousel-avon .carousel-caption h5 {
+    width: 55vw;
+    font-size: 3.5vw;
+    margin: 0 0 6%;
+  }
+  #carousel-avon .carousel-caption {
+    left: 0;
+    bottom: 12vw;
+    position: relative;
+  }
+  #carousel-avon .carousel-caption p {
+    font-size: 4.5vw;
+    line-height: 5.5vw;
+    color: #1c3c50;
+    width: 70%;
+  }
+  main {
+    width: 94%;
+    margin: 6% auto 50%;
+  }
+  section.conteudo h3:nth-child(1) {
+    display: none;
+  }
+  section.conteudo h3 {
+    margin: 20% 0 2%;
+    font-size: 4.5vw;
+    color: #1c3c50;
+  }
+
+  aside.top-cacilds {
+    grid-template-columns: 1fr;
+  }
+  aside.top-cacilds article {
+    position: relative;
+  }
+  aside.top-cacilds h4 {
+    width: 39vw;
+    top: 81%;
+    font-size: 4vw;
+    padding: 0.5vw 4vw;
+    text-align: left;
+  }
+  aside.divoltis-porris {
+    grid-template-columns: 1fr;
+  }
+  aside.divoltis-porris img {
+    width: 94vw;
+    height: auto;
+  }
+  aside.divoltis-porris h4 {
+    font-size: 4.5vw;
+  }
+  aside.divoltis-porris p {
+    font-size: 4.5vw;
+    padding: 0 0 3%;
+  }
+  aside.news {
+    grid-template-columns: 1fr;
+  }
+
+  section.conteudo .news-text h3 {
+    margin: 12% 0 4%;
+    font-size: 4.5vw;
+    color: #0099de;
+    display: block;
+  }
+  article.news-text p {
+    width: 100%;
+    padding: 0 0% 2% 0;
+    font-size: 4vw;
+    color: #1c3c50;
+    border-bottom: 2px solid #c2c3c44f;
+  }
+  .news-conteudo img {
+    width: 100%;
+  }
+  section.conteudo article.news h3 {
+    margin: -5% 0 4%;
+    font-size: 4.5vw;
+    color: #f5523e;
+    display: block;
+  }
+  article.news .description {
+    padding: 0 0 0 5%;
+  }
+  article.news .description h4 {
+    margin: 5% 0 4%;
+    font-size: 4vw;
+    color: #f5523e;
+  }
+  article.news .description p {
+    color: #1c3c50;
+    font-size: 4vw;
+    margin: 0;
+    padding: 0;
+  }
+
+  article.publicidade {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+  }
+  article.publicidade h4 {
+    margin: 0;
+    padding: 0;
+    top: -8%;
+    left: 80%;
+    position: absolute;
+    font-size: 2.3vw;
+    color: grey;
+  }
+  footer {
+    background: #1c3c50;
+    padding: 0 0 20%;
+  }
+  section.voltar-topo {
+    padding: 1% 5% 1% 0;
+    font-size: 4vw;
+    color: white;
+  }
+  section.voltar-topo img {
+    width: 5.5%;
+    margin: 0 0.5% 0;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1199px) {
+  .large-devices {
+    display: none;
+  }
+  .extra-small-devices {
+    display: none;
+  }
+  .small-devices {
+    display: block;
+  }
+
+  header.header-avon {
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+  }
+  header.header-avon nav {
+    width: 100%;
+    margin: 20% 15% 0;
+  }
+  #carousel-avon .carousel-control-prev,
+  #carousel-avon .carousel-control-next {
+    display: none;
+  }
+  #carousel-avon .carousel-caption h5 {
+    width: 46vw;
+    font-size: 3vw;
+  }
+  #carousel-avon .carousel-caption p {
+    font-size: 3.5vw;
+    line-height: 4vw;
+    color: white;
+  }
+  #carousel-avon .carousel-indicators {
+    bottom: -6vw;
+  }
+  main {
+    margin: 6% auto 15%;
+  }
+  aside.top-cacilds h4 {
+    width: 15%;
+    top: 69%;
+    font-size: 1.8vw;
+  }
+  aside.divoltis-porris {
+    grid-template-columns: 1fr 1fr;
+  }
+  aside.divoltis-porris img {
+    width: 42.5vw;
+    height: 27vw;
+  }
+  aside.divoltis-porris h4 {
+    font-size: 2vw;
+    margin: 4% 0 1%;
+  }
+  aside.divoltis-porris p {
+    font-size: 2vw;
+  }
+  section.conteudo h3 {
+    font-size: 3vw;
+  }
+  aside.news {
+    grid-template-columns: 1fr 1fr;
+  }
+  aside.news h3 {
+    font-size: 3vw;
+  }
+  article.news-text p {
+    font-size: 1.5vw;
+  }
+  article.news .description h4 {
+    font-size: 1.5vw;
+  }
+  article.news .description p {
+    font-size: 1.5vw;
+  }
+  article.publicidade {
+    width: 100%;
+    margin: unset;
+    text-align: unset;
+    position: relative;
+  }
+  article.publicidade h4 {
+    margin: 0;
+    padding: 0;
+    top: 12%;
+    left: 82%;
+    position: absolute;
+    font-size: 1.3vw;
+    color: grey;
+  }
+  aside.news img.publicidade {
+    margin: 20% 0;
+    width: 100%;
+  }
+  footer section.voltar-topo {
+    font-size: 1.5vw;
+  }
+  footer {
+    padding: 0 0 15%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .extra-small-devices {
+    display: none;
+  }
+  .small-devices {
+    display: none;
+  }
+  .large-devices {
+    display: block;
+  }
+  article.publicidade {
+    position: relative;
+  }
+  article.publicidade h4 {
+    margin: 0;
+    padding: 0;
+    top: -3%;
+    left: 68%;
+    position: absolute;
+    font-size: 1vw;
+    text-transform: capitalize;
+    color: grey;
+  }
+}
