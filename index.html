@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Front End Avon</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body class="HomeAvon" id="topo-avon">
+    <header class="header-avon">
+        <div class="menu">
+            <picture>
+                <source media="(max-width: 600px)" srcset= "./img/mobile/menu-icon.png">
+                <source media="(min-width: 600px)" srcset= "./img/tablet/menu-icon.png">
+                <source media="(min-width: 1200px)" srcset= "./img/desktop/menu-icon.png">
+                <img src="./img/desktop/menu-icon.png" alt="Menu Avon">
+            </picture>
+        </div>
+        <div class="logo">
+            <picture>
+                <source media="(max-width: 600px)" srcset= "./img/mobile/logo.png">
+                <source media="(min-width: 600px)" srcset= "./img/tablet/logo.png">
+                <source media="(min-width: 1200px)" srcset= "./img/desktop/logo.png">
+                <img src="./img/desktop/logo.png" alt="Logotipo Avon">
+            </picture>
+        </div>
+        <nav>
+            <ul>
+                <li>Site teste</li>
+
+            </ul>
+
+        </nav>
+        <div class="midias-sociais small-devices large-devices">
+            <picture>
+                <source media="(max-width: 1199px)" srcset= "./img/tablet/social-network-f.png">
+                <source media="(min-width:1200px)" srcset= "./img/desktop/social-network-f.png">
+                <img src="./img/desktop/social-network-f.png" alt="Facebook Avon">
+            </picture>
+            <picture>
+                <source media="(max-width: 1199px)" srcset= "./img/tablet/social-network-t.png">
+                <source media="(min-width: 1200px)" srcset= "./img/desktop/social-network-t.png">
+                <img src="./img/desktop/social-network-t.png" alt="Twitter Avon">
+            </picture>
+           
+        </div>
+    </header>
+    <main>
+        <section class="slider">
+            <div id="carousel-avon" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-avon" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-avon" data-slide-to="1"></li>
+                    <li data-target="#carousel-avon" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    
+                        <picture>
+                            <source media="(max-width: 600px)" srcset= "./img/mobile/image_rotate.png">
+                            <source media="(max-width: 1199px)" srcset= "./img/tablet/image_rotate.png">
+                            <source media="(min-width: 1200px)" srcset= "./img/desktop/image_rotate.png">
+                            <img src="./img/desktop/image_rotate.png" class="d-block w-100" alt="Mussum Ipsum Cacilds">
+                        </picture>
+                        <div class="carousel-caption  d-md-block">
+                            <h5>Mussum Ipsum Cacilds</h5>
+                            <p>Pra lá, depois divoltis porris, paradis.</p>
+                            <p class="small-devices large-devices">Paisis,filhis, espiritis santis</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                          <picture>
+                            <source media="(max-width: 600px)" srcset= "./img/mobile/image_rotate.png">
+                            <source media="(max-width: 1199px)" srcset= "./img/tablet/image_rotate.png">
+                            <source media="(min-width: 1200px)" srcset= "./img/desktop/image_rotate.png">
+                            <img src="./img/desktop/image_rotate.png" class="d-block w-100" alt="Mussum Ipsum Cacilds">
+                        </picture>
+                        <div class="carousel-caption  d-md-block">
+                            <h5>Mussum Ipsum Cacilds</h5>
+                            <p>Pra lá, depois divoltis porris, paradis.</p>
+                            <p class="small-devices large-devices">Paisis,filhis, espiritis santis</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                          <picture>
+                            <source media="(max-width: 600px)" srcset= "./img/mobile/image_rotate.png">
+                            <source media="(max-width: 1199px)" srcset= "./img/tablet/image_rotate.png">
+                            <source media="(min-width: 1200px)" srcset= "./img/desktop/image_rotate.png">
+                            <img src="./img/desktop/image_rotate.png" class="d-block w-100" alt="Mussum Ipsum Cacilds">
+                        </picture>
+                        <div class="carousel-caption d-md-block">
+                            <h5>Mussum Ipsum Cacilds</h5>
+                            <p>Pra lá, depois divoltis porris, paradis.</p>
+                            <p class="small-devices large-devices">Paisis,filhis, espiritis santis</p>
+                        </div>
+                    </div>
+
+                </div>
+                <a class="carousel-control-prev" href="#carousel-avon" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel-avon" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="conteudo">
+            <h3>top cacildis</h3>
+            <aside class="top-cacilds">
+                <article>
+                    <picture>
+                        <source media="(max-width: 600px)" srcset= "./img/mobile/highlight-01.png">
+                        <source media="(max-width: 1199px)" srcset= "./img/tablet/highlight-01.png">
+                        <source media="(min-width: 1200px)" srcset= "./img/desktop/highlight-01.png">
+                        <img src="./img/desktop/highlight-01.png" alt="Pindureta">
+                    </picture>
+                   
+                    <h4>Pindureta</h4>
+                </article>
+                <article>
+                    <picture>
+                        <source media="(max-width: 600px)" srcset= "./img/mobile/highlight-02.png">
+                        <source media="(max-width: 1199px)" srcset= "./img/tablet/highlight-02.png">
+                        <source media="(min-width: 1200px)" srcset= "./img/desktop/highlight-02.png">
+                        <img src="./img/desktop/highlight-02.png" alt="Bolis">
+                    </picture>
+                   
+                    <h4>Bolis</h4>
+                </article>
+                <article>
+                    <picture>
+                        <source media="(max-width: 600px)" srcset= "./img/mobile/highlight-03.png">
+                        <source media="(max-width: 1199px)" srcset= "./img/tablet/highlight-03.png">
+                        <source media="(min-width: 1200px)" srcset= "./img/desktop/highlight-03.png">
+                        <img src="./img/desktop/highlight-03.png" alt="Sapien">
+                    </picture>
+                    
+                    <h4>Sapien</h4>
+                </article>
+            </aside>
+            <h3>divoltis porris</h3>
+            <aside class="divoltis-porris">
+                <article>
+                    <div class="conteudo">
+                        <picture>
+                            <source media="(max-width: 600px)" srcset= "./img/mobile/divoltis-porris-01.png">
+                            <source media="(max-width: 1199px)" srcset= "./img/tablet/divoltis_porris-01.png">
+                            <source media="(min-width: 1200px)" srcset= "./img/desktop/divoltis_porris-01.png">
+                            <img src="./img/desktop/divoltis_porris-01.png" alt="Consetis">
+                        </picture>
+                        
+                        <h4>Consetis</h4>
+                        <p>Manduma pindureta quium dia nois paga. <br>
+                            Sapien montis palavris
+                        </p>
+                    </div>
+                    <div class="conteudo">
+                        <picture>
+                            <source media="(max-width: 600px)" srcset= "./img/mobile/divoltis-porris-03.png">
+                            <source media="(max-width: 1199px)" srcset= "./img/tablet/divoltis_porris-03.png">
+                            <source media="(min-width: 1200px)" srcset= "./img/desktop/divoltis_porris-03.png">
+                            <img src="./img/desktop/divoltis_porris-03.png" alt="Aenean">
+                        </picture>
+                        
+                        <h4>Aenean</h4>
+                        <p>Manduma pindureta quium dia nois paga. <br>
+                            Sapien montis palavris
+                        </p>
+                    </div>
+                </article>
+                <article>
+                    <div class="conteudo">
+                        <picture>
+                            <source media="(max-width: 600px)" srcset= "./img/mobile/divoltis-porris-02.png">
+                            <source media="(max-width: 1199px)" srcset= "./img/tablet/divoltis_porris-02.png">
+                            <source media="(min-width: 1200px)" srcset= "./img/desktop/divoltis_porris-02.png">
+                            <img src="./img/desktop/divoltis_porris-02.png" alt="Matis">
+                        </picture>
+                        <h4>Matis</h4>
+                        <p>Manduma pindureta quium dia nois paga. <br>
+                            Sapien montis palavris
+                        </p>
+                    </div>
+                    <div class="conteudo">
+                        <picture >
+                            <source media="(max-width: 600px)" srcset= "./img/mobile/divoltis-porris-04.png">
+                            <source media="(max-width: 1199px)" srcset= "./img/tablet/divoltis_porris-04.png">
+                            <source media="(min-width: 1200px)" srcset= "./img/desktop/divoltis_porris-04.png">
+                            <img src="./img/desktop/divoltis_porris-04.png" alt="Divinis">
+                        </picture>
+                        
+                        <h4>Divinis</h4>
+                        <p>Manduma pindureta quium dia nois paga. <br>
+                            Sapien montis palavris
+                        </p>
+                    </div>
+                </article>
+
+                <article class="large-devices publicidade"><h4>Publicidade</h4><img class="publicidade" src="./img/desktop/ads-300x600.png" alt="Publicidade">
+                </article>
+            </aside>
+
+            <aside class="news">
+                <article class="news-text">
+                    <h3>paisis, filhis, espiritis santis</h3>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit dolorum architecto debitis nobis.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit dolorum architecto debitis nobis.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit dolorum architecto debitis nobis.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit dolorum architecto debitis nobis.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit dolorum architecto debitis nobis.</p>
+
+                </article>
+                <article class="news">
+                    <h3>Se pirulitá</h3>
+
+                    <div class="news-conteudo">
+                        <picture >
+                            <source media="(max-width: 600px)" srcset= "./img/mobile/se_pirulita-01.png">
+                            <source media="(max-width: 1199px)" srcset= "./img/tablet/se_pirulita-01.png">
+                            <source media="(min-width: 1200px)" srcset= "./img/desktop/se_pirulita-01.png">
+                            <img src="./img/desktop/se_pirulita-01.png" alt="Pirulita">
+                        </picture>
+                    
+                        <div class="description">
+                            <h4>NAM LIBER</h4>
+                            <p>Casamentis faz malandris se pirulita</p>
+                        </div>
+                    </div>
+                    <div class="news-conteudo">
+                        <picture >
+                            <source media="(max-width: 600px)" srcset= "./img/mobile/se_pirulita-02.png">
+                            <source media="(max-width: 1199px)" srcset= "./img/tablet/se_pirulita-02.png">
+                            <source media="(min-width: 1200px)" srcset= "./img/desktop/se_pirulita-02.png">
+                            <img src="./img/desktop/se_pirulita-02.png" alt="Pirulita">
+                        </picture>
+                        
+                        <div class="description">
+                            <h4>GOSTIS</h4>
+                            <p>Casamentis faz malandris se pirulita</p>
+                        </div>
+                    </div>
+
+
+                </article>
+                <article class="news">
+                    <h3>Suco de cevadis</h3>
+
+                    <div class="news-conteudo">
+                        <picture >
+                            <source media="(max-width: 600px)" srcset= "./img/mobile/suco_de_cevadiss-01.png">
+                            <source media="(max-width: 1199px)" srcset= "./img/tablet/suco_de_cevadiss-01.png">
+                            <source media="(min-width: 1200px)" srcset= "./img/desktop/suco_de_cevadiss-01.png">
+                            <img src="./img/desktop/suco_de_cevadiss-01.png" alt="suco cevadis">
+                        </picture>
+                    
+                        <div class="description">
+                            <h4>INTERAGI</h4>
+                            <p>Casamentis faz malandris se pirulita</p>
+                        </div>
+                    </div>
+                    <div class="news-conteudo">
+                        <picture >
+                            <source media="(max-width: 600px)" srcset= "./img/mobile/suco_de_cevadiss-02.png">
+                            <source media="(max-width: 1199px)" srcset= "./img/tablet/suco_de_cevadiss-02.png">
+                            <source media="(min-width: 1200px)" srcset= "./img/desktop/suco_de_cevadiss-02.png">
+                            <img src="./img/desktop/suco_de_cevadiss-02.png" alt="suco cevadis">
+                        </picture>
+                  
+                        <div class="description">
+                            <h4>GOSTIS</h4>
+                            <p>Casamentis faz malandris se pirulita</p>
+                        </div>
+                    </div>
+
+                </article>
+                <article class=" publicidade small-devices extra-small-devices"><h4>Publicidade</h4><img class="publicidade" src="./img/tablet/ads-300x250.png" alt="Publicidade">
+                </article>
+            </aside>
+        </section>
+    </main>
+    <footer>
+        <a href="#topo-avon">
+            <section class="voltar-topo"> Voltar ao topo <img src="./img/desktop/arrow-up-outline.svg" alt="Seta">
+            </section>
+        </a>
+    </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+</html>
